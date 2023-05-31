@@ -12,7 +12,7 @@ type props = {
 }
 export default function Sidebar({open, onClose, children}: props){
   return(
-    <section className={` z-40 fixed md:relative right-0 top-0 bottom-0 text-white ${open ? 'w-screen bg-color-black-sidebar' : 'w-0'} md:w-[320px] md:left-0 md:bg-color-black-sidebar md:border-r-2 md:border-stone-900`}>
+    <section className={` relative right-0 top-0 bottom-0 text-white ${open ? 'w-screen bg-color-black-sidebar' : 'w-0'} md:w-[320px] md:left-0 md:bg-color-black-sidebar md:border-r-2 md:border-stone-900`}>
       <div className={` m-5 transition-all duration-500 ease-in-out ${open ? ' ml-5' : ' -ml-[100%]'} md:ml-5`}>
         <div className='flex items-center justify-between'>
            <div>
