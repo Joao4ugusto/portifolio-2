@@ -1,4 +1,7 @@
 import IconEmail from "./icons/Email";
+import IconJava from "./icons/Java";
+import IconJavascript from "./icons/javaScript";
+import IconReact from "./icons/react";
 
 export default function Principal(){
   return (
@@ -24,20 +27,11 @@ export default function Principal(){
       </div>
       <h3 className=" mt-10 text-base underline">Tecnologias</h3>
       <div className="flex mt-8 gap-4 w-full">
-        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
-      </div>
-
-  
-      <div className="flex mt-4 gap-4 w-full">
-        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconReact width={24} height={24} /></div>
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJavascript width={24} height={24} /></div>
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJava width={24} height={24}  /></div>
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"></div>
       </div>
     </div>
   )
