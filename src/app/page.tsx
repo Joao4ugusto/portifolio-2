@@ -1,5 +1,4 @@
 "use client"
-import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Principal from "@/components/principal";
 import Sidebar from "@/components/sidebar";
@@ -19,7 +18,6 @@ export default function Page() {
         <Header openSaidebarClick={openSaidebar}/>
        <Principal />
        </section>
-       <Footer />
      </main>
   );
 }
