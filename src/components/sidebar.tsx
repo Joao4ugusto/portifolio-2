@@ -12,9 +12,9 @@ type props = {
 }
 export default function Sidebar({open, onClose, children}: props){
   return(
-    <section className={` relative right-0 top-0 bottom-0 text-white ${open ? 'w-screen bg-color-black-sidebar' : 'w-0'} md:w-[320px] md:left-0 md:bg-color-black-sidebar md:border-r-2 md:border-stone-900`}>
-      <div className={` m-5 transition-all duration-500 ease-in-out ${open ? ' ml-5' : ' -ml-[100%]'} md:ml-5`}>
-        <div className='flex items-center justify-between'>
+    <section className={` z-50 relative right-0 top-0 bottom-0 text-white ${open ? 'w-screen bg-color-black-sidebar' : 'w-0'} md:w-[320px] md:left-0 md:bg-color-black-sidebar md:border-r-2 md:border-stone-900`}>
+      <div className={` m-5 z-50 transition-all duration-500 ease-in-out ${open ? ' ml-12' : ' -ml-96'} md:ml-5`}>
+        <div className='flex items-center justify-between relative transition-all duration-500 ease-in-out'>
            <div>
               <a href='#' className='underline text-base font-normal '>João <br/> Augusto</a>
            </div>
@@ -22,7 +22,7 @@ export default function Sidebar({open, onClose, children}: props){
               <IconClose width={28} height={28} />
            </div>
         </div>
-        <div className='mt-32 md:mt-32 lg:mt-24'>
+        <div className='mt-32 md:mt-32 lg:mt-24 relative transition-all duration-500 ease-in-out'>
           <ul className=' flex flex-col text-sm font-medium space-y-11'>
             <a href='#' className='flex items-center gap-2 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconExplore width={18} height={18} /> Principal</a>
             <a href='#' className='flex items-center gap-2 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconAtlasian width={22} height={22} /> Projetos</a>
