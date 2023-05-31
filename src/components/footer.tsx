@@ -4,6 +4,18 @@ import IconBxlLinkedinSquare from "./icons/iconLinkedin";
 
 export default function Footer() {
   return (
-    <div></div>
+    <footer className=" bottom-0 relative px-14 py-6 w-full h-[80px] md:bg-color-black-sidebar border-t-2 border-stone-900">
+      <div className="flex items-center justify-between">
+        <div>
+          <a href="#"><IconBxlInstagram width={22} height={22} /></a>
+        </div>
+        <div>
+          <a href="#"><IconBxlGithub width={22} height={22} /></a>
+        </div>
+        <div>
+          <a href="#"><IconBxlLinkedinSquare width={22} height={22} /></a>
+        </div>
+      </div>
+    </footer>
   );
 }
