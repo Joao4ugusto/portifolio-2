@@ -30,6 +30,15 @@ export default function Principal(){
         <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
         <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
       </div>
+
+  
+      <div className="flex mt-4 gap-4 w-full">
+        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
+      </div>
     </div>
   )
 }
