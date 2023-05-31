@@ -1,7 +1,9 @@
 import IconEmail from "./icons/Email";
 import IconJava from "./icons/Java";
+import IconBxlCss3 from "./icons/css";
 import IconJavascript from "./icons/javaScript";
 import IconReact from "./icons/react";
+import IconBxlTailwindCss from "./icons/taiwind";
 
 export default function Principal(){
   return (
@@ -26,12 +28,11 @@ export default function Principal(){
        </div>
       </div>
       <h3 className=" mt-10 text-base underline">Tecnologias</h3>
-      <div className="flex mt-8 gap-4 w-full">
+      <div className="flex mt-8 gap-6 w-full">
         <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconReact width={24} height={24} /></div>
         <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJavascript width={24} height={24} /></div>
-        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJava width={24} height={24}  /></div>
-        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlCss3 width={24} height={24}  /></div>
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlTailwindCss width={24} height={24} /></div>
       </div>
     </div>
   )
