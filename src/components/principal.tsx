@@ -7,7 +7,7 @@ export default function Principal(){
          <span className=" text-white font-semibold text-5xl ">João <span className=" font-bold bg-gradient-to-br from-pink-600 to-orange-500 text-transparent bg-clip-text">Augusto..</span></span></h1>
       <h3 className=" mt-2 text-lg font-light">Desenvolvedor de Software | Estudante <br/> de Ciências da Computação.</h3>
       <div className=" mt-5 w-full bg-color-black-sidebar border border-stone-800 p-3">
-      <h4 className=" underline text-lg">Quem eu sou?</h4>
+      <h4 className=" underline text-base">Quem eu sou?</h4>
       <p className=" font-light mt-5 leading-8 ">Sou um Desenvolvedor especializado em HTML, CSS, JavaScript e TypeScript, com conhecimento em ReactJS, NextJS, Tailwind CSS. Também possuo habilidades avançadas em Java e Spring para o desenvolvimento do backend.
         Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
       </div>
@@ -22,7 +22,7 @@ export default function Principal(){
   </div>
        </div>
       </div>
-      <h3 className=" mt-10 text-lg underline">Tecnologias</h3>
+      <h3 className=" mt-10 text-base underline">Tecnologias</h3>
       <div className="flex mt-8 gap-8">
         <div className=" p-5 bg-color-black-sidebar border border-stone-800 rounded"></div>
         <div className=" p-5 bg-color-black-sidebar border border-stone-800 rounded"></div>
