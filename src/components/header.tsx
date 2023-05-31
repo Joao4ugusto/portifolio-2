@@ -15,7 +15,7 @@ export default function Header({ openSaidebarClick }: props){
         <IconMenu width={24} height={24} />
       </div>
       </div>
-      <hr className="border-stone-900" />
+      <hr className=" border-stone-800" />
     </header>
   )
 }
