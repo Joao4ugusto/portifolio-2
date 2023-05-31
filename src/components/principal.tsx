@@ -1,3 +1,5 @@
+import IconEmail from "./icons/Email";
+
 export default function Principal(){
   return (
     <div className="mx-3 my-32 md:mx-28 md:my-14 lg:mx-52 xl:mx-64">
@@ -8,6 +10,17 @@ export default function Principal(){
       <h4 className=" underline">Quem eu sou?</h4>
       <p className=" font-light mt-2 leading-8">Sou um Desenvolvedor especializado em HTML, CSS, JavaScript e TypeScript, com conhecimento em ReactJS, NextJS, Tailwind CSS. Também possuo habilidades avançadas em Java e Spring para o desenvolvimento do backend.
         Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
+      </div>
+      <div className=" flex my-5 gap-5">
+      <div className=" p-2 bg-color-black-sidebar border rounded border-stone-800 text-center">Contato</div>
+      <div className="flex p-2 bg-color-black-sidebar border rounded border-stone-800 text-center">
+      <div className="flex items-center mr-2">
+      <IconEmail width={18} />
+      </div>
+  <div className="flex items-center">
+    E-mail
+  </div>
+</div>
       </div>
     </div>
   )
