@@ -34,6 +34,12 @@ export default function Principal(){
         <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlCss3 width={24} height={24}  /></div>
         <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlTailwindCss width={24} height={24} /></div>
       </div>
+      <div className="flex mt-4 gap-6 w-full">
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconReact width={24} height={24} /></div>
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJavascript width={24} height={24} /></div>
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlCss3 width={24} height={24}  /></div>
+        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlTailwindCss width={24} height={24} /></div>
+      </div>
     </div>
   )
 }
