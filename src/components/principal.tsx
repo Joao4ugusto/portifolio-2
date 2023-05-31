@@ -23,12 +23,12 @@ export default function Principal(){
        </div>
       </div>
       <h3 className=" mt-10 text-base underline">Tecnologias</h3>
-      <div className="flex mt-8 gap-8">
-        <div className=" p-5 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-5 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-5 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-5 bg-color-black-sidebar border border-stone-800 rounded"></div>
-        <div className=" p-5 bg-color-black-sidebar border border-stone-800 rounded"></div>
+      <div className="flex mt-8 gap-4 w-full">
+        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
+        <div className=" p-7 bg-color-black-sidebar border border-stone-800 rounded"></div>
       </div>
     </div>
   )
