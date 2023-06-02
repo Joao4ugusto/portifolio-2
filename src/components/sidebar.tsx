@@ -3,7 +3,7 @@ import IconClose from './icons/iconClose';
 import IconExplore from './icons/iconExplore';
 import IconSquarePen from './icons/iconPen';
 import Icon24px from './icons/iconTools';
-import IconAtlasian from './icons/iconPapel';
+import IconCodeOfConduct16 from './icons/codeOf';
 
 type props = {
   children: ReactNode;
@@ -22,10 +22,10 @@ export default function Sidebar({open, onClose}: props){
               <IconClose width={28} height={28} />
            </div>
         </div>
-        <div className='mt-32 md:mt-32 lg:mt-24 relative transition-all duration-500 ease-in-out'>
+        <div className='mt-32 md:mt-28 lg:mt-24 relative transition-all duration-500 ease-in-out'>
           <ul className=' flex flex-col text-sm font-medium space-y-11'>
             <a href='#' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconExplore width={18} height={18} /> Principal</a>
-            <a href='#' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconAtlasian width={22} height={22} /> Projetos</a>
+            <a href='#' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconCodeOfConduct16 width={20} height={20} /> Projetos</a>
             <a href='#' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconSquarePen width={20} height={20} /> Blog</a>
             <a href='#' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><Icon24px width={22} height={22} /> Ferramentas</a>
           </ul>

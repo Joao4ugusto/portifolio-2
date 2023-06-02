@@ -1,7 +1,13 @@
 import IconEmail from "./icons/Email";
+import IconJava from "./icons/Java";
 import IconBxlCss3 from "./icons/css";
+import IconLanguageHtml5 from "./icons/html";
 import IconJavascript from "./icons/javaScript";
+import IconBxlMongodb from "./icons/mongo";
+import IconBxlPostgresql from "./icons/postgreSql";
 import IconReact from "./icons/react";
+import IconBxlSass from "./icons/scss";
+import IconBxlSpringBoot from "./icons/spring";
 import IconBxlTailwindCss from "./icons/taiwind";
 
 export default function Principal(){
@@ -16,7 +22,7 @@ export default function Principal(){
         Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
       </div>
       <div className=" flex my-5 gap-5">
-      <div className=" p-2 bg-color-black-sidebar border rounded border-stone-800 text-center">Contato</div>
+      <div className=" p-2 bg-color-black-sidebar border rounded border-stone-800 text-center">WhatsApp</div>
       <div className="flex p-2 bg-color-black-sidebar border rounded border-stone-800 text-center">
       <div className="flex items-center mr-2">
       <IconEmail width={18} />
@@ -30,15 +36,17 @@ export default function Principal(){
       <div className="flex mt-8 gap-4 w-full">
         <div className=" hover:text-sky-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconReact  width={24} height={24} /></div>
         <div className=" hover:text-amber-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJavascript width={24} height={24} /></div>
+        <div className=" hover:text-amber-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconLanguageHtml5 width={24} height={24} /></div>
         <div className=" hover:text-cyan-700 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlCss3 width={24} height={24}  /></div>
         <div className=" hover:text-sky-400 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlTailwindCss width={24} height={24} /></div>
       </div>
-      {/* <div className="flex mt-4 gap-6 w-full">
-        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconReact width={24} height={24} /></div>
-        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJavascript width={24} height={24} /></div>
-        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlCss3 width={24} height={24}  /></div>
-        <div className=" p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlTailwindCss width={24} height={24} /></div>
-      </div> */}
+      <div className="flex mt-5 mb-8 gap-4 w-full">
+      <div className=" hover:text-sky-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlSass  width={24} height={24} /></div>
+        <div className=" hover:text-sky-500 transition-transform duration-500 transform hover:-translate-y-3 p-3  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJava  width={35} height={35} /></div>
+        <div className=" hover:text-amber-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlSpringBoot width={24} height={24} /></div>
+        <div className=" hover:text-cyan-700 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlPostgresql width={24} height={24}  /></div>
+        <div className=" hover:text-sky-400 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlMongodb width={24} height={24} /></div>
+      </div>
     </div>
   )
 }
