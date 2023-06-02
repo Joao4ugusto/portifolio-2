@@ -10,11 +10,11 @@ type props = {
   open: boolean;
   onClose: () => void;
 }
-export default function Sidebar({open, onClose, children}: props){
+export default function Sidebar({open, onClose}: props){
   return(
-    <section className={` z-50 relative right-0 top-0 bottom-0 text-white ${open ? 'w-screen bg-color-black-sidebar' : 'w-0'} md:w-[320px] md:left-0 md:bg-color-black-sidebar md:border-r-2 md:border-stone-900`}>
-      <div className={` m-5 z-50 transition-all duration-500 ease-in-out ${open ? ' ml-12' : ' -ml-96'} md:ml-5`}>
-        <div className='flex items-center justify-between relative transition-all duration-500 ease-in-out'>
+    <section className={`fixed z-30 right-0 top-0 bottom-0 text-white ${open ? 'w-screen bg-color-black-sidebar' : 'w-0'} md:w-[260px] md:left-0 md:bg-color-black-sidebar md:border-r-2 md:border-stone-900`}>
+      <div className={` m-5 ${open ? ' ml-12' : '-ml-96'} md:ml-5`}>
+        <div className='flex items-center justify-between'>
            <div>
               <a href='#' className='underline text-base font-normal '>João <br/> Augusto</a>
            </div>
