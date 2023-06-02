@@ -21,9 +21,6 @@ module.exports = {
       '2xl': '1536px',
       'mobile': '480px', 
     },
-    spacing: {
-      "10": "2.5rem"
-    }
   },
   plugins: [],
 }

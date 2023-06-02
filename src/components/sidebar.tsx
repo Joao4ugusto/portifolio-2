@@ -12,7 +12,7 @@ type props = {
 }
 export default function Sidebar({open, onClose}: props){
   return(
-    <section className={`fixed z-30 right-0 top-0 bottom-0 text-white ${open ? 'w-screen bg-color-black-sidebar' : 'w-0'} md:w-[260px] md:left-0 md:bg-color-black-sidebar md:border-r-2 md:border-stone-900`}>
+    <section className={` fixed z-30 right-0 top-0 bottom-0 text-white ${open ? 'w-screen bg-color-black-sidebar' : 'w-0'} md:w-[260px] md:left-0 md:bg-color-black-sidebar md:border-r-2 md:border-stone-900`}>
       <div className={` m-5 ${open ? ' ml-12' : '-ml-96'} md:ml-5`}>
         <div className='flex items-center justify-between'>
            <div>
@@ -24,10 +24,10 @@ export default function Sidebar({open, onClose}: props){
         </div>
         <div className='mt-32 md:mt-32 lg:mt-24 relative transition-all duration-500 ease-in-out'>
           <ul className=' flex flex-col text-sm font-medium space-y-11'>
-            <a href='#' className='flex items-center gap-2 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconExplore width={18} height={18} /> Principal</a>
-            <a href='#' className='flex items-center gap-2 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconAtlasian width={22} height={22} /> Projetos</a>
-            <a href='#' className='flex items-center gap-2 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconSquarePen width={20} height={20} /> Blog</a>
-            <a href='#' className='flex items-center gap-2 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><Icon24px width={22} height={22} /> Ferramentas</a>
+            <a href='#' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconExplore width={18} height={18} /> Principal</a>
+            <a href='#' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconAtlasian width={22} height={22} /> Projetos</a>
+            <a href='#' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconSquarePen width={20} height={20} /> Blog</a>
+            <a href='#' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><Icon24px width={22} height={22} /> Ferramentas</a>
           </ul>
         </div>
       </div>
