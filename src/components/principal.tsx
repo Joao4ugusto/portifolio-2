@@ -41,11 +41,11 @@ export default function Principal(){
         <div className=" hover:text-sky-400 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlTailwindCss width={24} height={24} /></div>
       </div>
       <div className="flex mt-5 mb-8 gap-4 w-full">
-      <div className=" hover:text-sky-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlSass  width={24} height={24} /></div>
-        <div className=" hover:text-sky-500 transition-transform duration-500 transform hover:-translate-y-3 p-3  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJava  width={35} height={35} /></div>
-        <div className=" hover:text-amber-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlSpringBoot width={24} height={24} /></div>
+      <div className="   hover:text-pink-400 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlSass  width={24} height={24} /></div>
+        <div className=" hover:text-orange-500 transition-transform duration-500 transform hover:-translate-y-3 p-3  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJava  width={35} height={35} /></div>
+        <div className=" hover:text-green-600 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlSpringBoot width={24} height={24} /></div>
         <div className=" hover:text-cyan-700 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlPostgresql width={24} height={24}  /></div>
-        <div className=" hover:text-sky-400 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlMongodb width={24} height={24} /></div>
+        <div className=" hover:text-green-800 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlMongodb width={24} height={24} /></div>
       </div>
     </div>
   )
