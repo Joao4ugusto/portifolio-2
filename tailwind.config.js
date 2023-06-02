@@ -19,8 +19,11 @@ module.exports = {
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1536px',
-      'mobile': '480px', // novo tamanho de tela
+      'mobile': '480px', 
     },
+    spacing: {
+      "10": "2.5rem"
+    }
   },
   plugins: [],
 }
