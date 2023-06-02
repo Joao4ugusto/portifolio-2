@@ -6,7 +6,7 @@ import IconBxlTailwindCss from "./icons/taiwind";
 
 export default function Principal(){
   return (
-    <div className="mx-3 my-32 md:mx-40 md:my-14 lg:mx-52 xl:mx-80 md:absolute md:z-40">
+    <div className="mx-3 my-52 md:mx-96 md:my-14 lg:mx-96 xl:mx-96 md:absolute md:z-40">
      <h1 className=" text-slate-200 text-lg font-medium">OLÁ, EU SOU O <br/>
          <span className=" text-white font-semibold text-5xl ">João <span className=" font-bold bg-gradient-to-br from-pink-600 to-orange-500 text-transparent bg-clip-text">Augusto..</span></span></h1>
       <h3 className=" mt-2 text-lg font-light">Desenvolvedor de Software | Estudante <br/> de Ciências da Computação.</h3>
