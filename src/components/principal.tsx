@@ -33,13 +33,13 @@ export default function Principal(){
        </div>
       </div>
       <h3 className=" mt-10 text-xs underline italic">TECNOLOGIAS</h3>
-      <div className="flex mt-8 gap-5 w-full">
+      <div className="flex mt-8 gap-6 w-full">
         <div className=" transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconReact  width={24} height={24} /></div>
         <div className=" transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJavascript width={24} height={24} /></div>
         <div className=" transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconLanguageHtml5 width={24} height={24} /></div>
         <div className=" transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlCss3 width={24} height={24}  /></div>
       </div>
-      <div className="flex mt-5 mb-8 gap-5 w-full">
+      <div className="flex mt-5 mb-8 gap-6 w-full">
       <div className="   transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlSass  width={24} height={24} /></div>
         <div className=" transition-transform duration-500 transform hover:-translate-y-3 p-3  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJava  width={35} height={35} /></div>
         <div className=" transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlSpringBoot width={24} height={24} /></div>
