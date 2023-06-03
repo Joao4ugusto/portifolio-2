@@ -32,7 +32,7 @@ export default function Principal(){
   </div>
        </div>
       </div>
-      <h3 className=" mt-10 text-sm underline italic">TECNOLOGIAS</h3>
+      <h3 className=" mt-10 text-xs underline italic">TECNOLOGIAS</h3>
       <div className="flex mt-8 gap-4 w-full">
         <div className=" transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconReact  width={24} height={24} /></div>
         <div className=" transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJavascript width={24} height={24} /></div>
