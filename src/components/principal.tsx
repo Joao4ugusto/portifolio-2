@@ -13,7 +13,7 @@ import IconBxlTailwindCss from "./icons/taiwind";
 export default function Principal(){
   return (
     <div className="mx-4 my-28 md:mx-10 md:my-14 lg:mx-96 xl:mx-96 md:absolute">
-     <h1 className=" italic text-slate-200 text-lg font-medium">PRAZER, EU SOU <br/>
+     <h1 className=" italic text-slate-200 text-lg font-medium">OLÁ, EU SOU O <br/>
          <span className=" italic text-white font-semibold text-5xl ">João <span className=" font-bold bg-gradient-to-br from-pink-600 to-orange-500 text-transparent bg-clip-text">Augusto..</span></span></h1>
       <h3 className=" mt-2 text-lg font-light">Desenvolvedor de Software | Estudante <br/> de Ciências da Computação.</h3>
       <div className=" hover:bg-color-black-sidebar/50 mt-5 w-full bg-color-black-sidebar border border-stone-800 rounded p-4">
