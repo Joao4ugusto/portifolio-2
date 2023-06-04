@@ -13,7 +13,7 @@ type props = {
 
 export default function Sidebar({open, onClose, children}: props){
   return(
-    <section className={` transition-all duration-300 fixed z-30 left-0 top-0 bottom-0 text-white border-r-2 border-stone-900 ${open ? ' w-[300px] bg-color-black-sidebar' : 'w-0'} md:w-[260px]  md:bg-color-black-sidebar`} >
+    <section className={` transition-all duration-300 fixed z-50 left-0 top-0 bottom-0 text-white border-r-2 border-stone-900 ${open ? ' w-[300px] bg-color-black-sidebar' : 'w-0'} md:w-[260px]  md:bg-color-black-sidebar`} >
       <div className={` ${open ? 'ml-0' : '-ml-96'} md:ml-3 `}>
         <div className={`text-white m-3 flex items-center justify-between`}>
            <div>

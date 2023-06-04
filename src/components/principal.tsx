@@ -12,8 +12,8 @@ import IconBxlTailwindCss from "./icons/taiwind";
 
 export default function Principal(){
   return (
-    <div className="mx-4 my-28 md:mx-10 md:my-14 lg:mx-96 xl:mx-96 md:absolute">
-      <div className="absolute right-6 text-cyan-500 rotating-icon animate-spin duration-400"><IconReact  width={26} height={26}/></div>
+    <div className=" z-30 mx-4 my-28 md:mx-10 md:my-14 lg:mx-96 xl:mx-96 md:absolute">
+      <div className="absolute right-6 text-cyan-500 rotating-icon animate-spin duration-400"><IconReact  width={28} height={28}/></div>
      <h1 className=" italic text-slate-200 text-lg font-medium">OLÁ, EU SOU O <br/>
          <span className=" italic text-white font-semibold text-5xl ">João <span className=" font-bold bg-gradient-to-br from-pink-600 to-orange-500 text-transparent bg-clip-text">Augusto..</span></span></h1>
       <h3 className=" mt-2 text-lg font-light">Desenvolvedor de Software | Estudante <br/> de Ciências da Computação.</h3>
