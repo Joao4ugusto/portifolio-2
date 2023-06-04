@@ -7,7 +7,7 @@ type props = {
 export default function Header({ openSaidebarClick }: props){
   return(
     <header className="md:hidden fixed bg-black w-full">
-      <div className=" h-[56px] m-3 flex justify-between items-center">
+      <div className=" h-[56px] my-3 mx-4 flex justify-between items-center">
       <div>
         <h1 className="underline text-base font-normal">João <br/> Augusto</h1>
       </div>
