@@ -18,7 +18,6 @@ export default function Page() {
        <section className="flex flex-col w-full">
         <Header openSaidebarClick={openSaidebar}/>
        <Principal />
-       <Footer />
        </section>
      </main>
   );
