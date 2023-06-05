@@ -1,4 +1,5 @@
 "use client"
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Principal from "@/components/principal";
 import Sidebar from "@/components/sidebar";
@@ -17,6 +18,7 @@ export default function Page() {
        <section className="flex flex-col w-full">
         <Header openSaidebarClick={openSaidebar}/>
        <Principal />
+       <Footer />
        </section>
      </main>
   );

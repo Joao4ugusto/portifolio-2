@@ -4,8 +4,8 @@ import IconBxlLinkedinSquare from "./icons/iconLinkedin";
 
 export default function Footer() {
   return (
-    <footer className=" bottom-0 fixed px-14 py-6 w-full h-[80px] md:bg-color-black-sidebar border-t-2 border-stone-900">
-      <div className="flex items-center justify-between">
+    <footer className=" z-30 bottom-0 px-14 py-6 w-full h-[80px] bg-color-black-sidebar border-t-2 border-stone-900">
+      <div className="flex items-center justify-center">
         <div>
           <a href="#"><IconBxlInstagram width={22} height={22} /></a>
         </div>
