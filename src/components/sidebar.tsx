@@ -13,8 +13,8 @@ type props = {
 
 export default function Sidebar({open, onClose, children}: props){
   return(
-    <section className={` transition-all duration-300 fixed z-50 left-0 top-0 bottom-0 text-white border-r-2 border-stone-900 ${open ? ' w-[300px] bg-color-black-sidebar' : 'w-0'} md:w-[260px]  md:bg-color-black-sidebar`} >
-      <div className={` ${open ? 'ml-0' : '-ml-96'} md:ml-3 `}>
+    <section className={`z-50 transition-all duration-300 fixed  left-0 top-0 bottom-0 text-white border-r-2 border-stone-900 ${open ? ' w-screen bg-color-black-sidebar' : 'w-0'} md:w-[260px]  md:bg-color-black-sidebar`} >
+      <div className={`${open ? 'ml-0' : '-ml-96'} md:ml-3`}>
         <div className={`text-white m-3 flex items-center justify-between`}>
            <div>
               <a href='#' className='underline text-base font-normal '>João <br/> Augusto</a>
@@ -31,9 +31,7 @@ export default function Sidebar({open, onClose, children}: props){
             <a href='#' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><Icon24px width={22} height={22} /> Ferramentas</a>
           </ul>
         </div>
-      </div>
-
-
+        </div>
     </section>
   )
 }
