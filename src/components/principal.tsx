@@ -32,7 +32,7 @@ export default function Principal(){
       </div>
        </div>
       </div>
-      <div className="flex flex-wrap mt-12 gap-6">
+      <div className="flex flex-wrap mt-12 gap-4 justify-between">
         <div className=" hover:text-cyan-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconReact  width={24} height={24} /></div>
         <div className=" hover:text-yellow-400 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJavascript width={24} height={24} /></div>
         <div className=" hover:text-orange-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconLanguageHtml5 width={24} height={24} /></div>
