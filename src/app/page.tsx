@@ -1,5 +1,4 @@
 "use client"
-import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Principal from "@/components/principal";
 import Sidebar from "@/components/sidebar";
