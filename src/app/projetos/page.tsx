@@ -1,5 +1,4 @@
 "use client"
-import Image from 'next/image';
 import {useState} from 'react'
 import Sidebar from "@/components/sidebar";
 import IconArrowUpRightSquareFill from '@/components/icons/arrow';
@@ -10,13 +9,13 @@ import Header from '@/components/header';
 export default function Principal(){
   const [sidebarOpened, setSidebarOpened] =  useState(false);
   
-  const nome = 'Projeto em React e em java';
+  const nome = 'Projeto em Java';
 
   const openSaidebar = () => setSidebarOpened(true)
   const clouseSaidebar = () => setSidebarOpened(false)
   return(
     <div>
-      <Header />
+      <Header openSaidebarClick={openSaidebar}/>
       <Sidebar open={sidebarOpened} onClose={clouseSaidebar}>
        </Sidebar>
       <div className=" mx-4 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[570px] xl:mx-[310px] md:absolute">
@@ -27,7 +26,7 @@ export default function Principal(){
             <Gradiente />
           </div>
           <div className=' justify-between flex border-t border-stone-800 p-3'>
-            <div className=' flex gap-4'>
+            <div className=' flex gap-2'>
               <div className='p-2 bg-black border rounded border-stone-800 inline-block'>
                 <h1>{nome}</h1>
               </div>
