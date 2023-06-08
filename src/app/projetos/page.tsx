@@ -21,7 +21,7 @@ export default function Principal(){
       <div className=" mx-4 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[570px] xl:mx-[310px] md:absolute">
           <h1 className="text-white text-2xl font-semibold">Projetos</h1>
 
-          <div className=' mt-10 bg-color-black-sidebar w-[560px] h-60 border rounded border-stone-800'>
+          <div className=' hover:bg-color-black-sidebar/50 mt-10 bg-color-black-sidebar w-[560px] h-60 border rounded border-stone-800'>
           <div className=' flex h-[70%] justify-center items-center center'>
             <Gradiente />
           </div>
