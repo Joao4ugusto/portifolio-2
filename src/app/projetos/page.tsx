@@ -9,7 +9,7 @@ import Header from '@/components/header';
 export default function Principal(){
   const [sidebarOpened, setSidebarOpened] =  useState(false);
   
-  const nome = 'Projeto em Java';
+  const nome = 'Projeto em JavaScript';
 
   const openSaidebar = () => setSidebarOpened(true)
   const clouseSaidebar = () => setSidebarOpened(false)
