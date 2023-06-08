@@ -16,8 +16,8 @@ export default function Principal(){
     <div>
       <Sidebar open={sidebarOpened} onClose={clouseSaidebar}>
        </Sidebar>
-      <div className="mx-4 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[550px] xl:mx-[310px] md:absolute">
-        <h1 className="text-white text-2xl font-semibold text-center">Projetos</h1>
+      <div className="mx-4 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[570px] xl:mx-[310px] md:absolute">
+        <h1 className="text-white text-2xl font-semibold">Projetos</h1>
         <div className="mt-10 xl:w-[550px] xl:h-[240px] hover:bg-color-black-sidebar/50 w-full bg-color-black-sidebar border border-stone-800 rounded">
           <div className=" mt-18 mb-20 text-center justify-center justify-items-center">
             <h1>ooooi</h1>
