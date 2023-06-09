@@ -40,7 +40,26 @@ export default function Principal(){
           </div>
           </div>
 
-          <div className=' hover:bg-color-black-sidebar/50  bg-color-black-sidebar w-[560px] h-60 border rounded border-stone-800'>
+          <div className=' mb-5 hover:bg-color-black-sidebar/50  bg-color-black-sidebar w-[560px] h-60 border rounded border-stone-800'>
+          <div className=' flex h-[70%] justify-center items-center center'>
+            <Gradiente />
+          </div>
+          <div className=' justify-between flex border-t border-stone-800 p-3'>
+            <div className=' flex gap-2'>
+              <div className='p-2 bg-black border rounded border-stone-800 inline-block'>
+                <h1>{nome}</h1>
+              </div>
+              <div className=' p-2 bg-black border rounded border-stone-800 inline-block'>
+                <IconJavascript width={28} height={28} />
+              </div>
+            </div>
+            <div className=' flex items-center'>
+              <IconArrowUpRightSquareFill width={30} height={30} />
+            </div>
+          </div>
+          </div>
+
+          <div className=' mb-5 hover:bg-color-black-sidebar/50  bg-color-black-sidebar w-[560px] h-60 border rounded border-stone-800'>
           <div className=' flex h-[70%] justify-center items-center center'>
             <Gradiente />
           </div>
