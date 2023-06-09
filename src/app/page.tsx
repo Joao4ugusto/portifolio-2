@@ -3,7 +3,7 @@ import Header from "@/components/header";
 import Principal from "@/components/principal";
 import Sidebar from "@/components/sidebar";
 import {useState} from 'react'
-import Blog from "./blog/blog";
+import Blog from "./blog/page";
 
 export default function Page() {
   const [sidebarOpened, setSidebarOpened] =  useState(false);
@@ -18,7 +18,6 @@ export default function Page() {
        <section className="flex flex-col w-full">
         <Header openSaidebarClick={openSaidebar}/>
        <Principal />
-       <Blog />
        </section>
      </main>
   );

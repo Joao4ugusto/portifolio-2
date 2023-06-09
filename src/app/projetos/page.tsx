@@ -6,7 +6,7 @@ import IconJavascript from '@/components/icons/javaScript';
 import Gradiente from '@/components/icons/gradiente';
 import Header from '@/components/header';
 
-export default function Principal(){
+export default function Projetos(){
   const [sidebarOpened, setSidebarOpened] =  useState(false);
   
   const nome = 'Projeto em JavaScript';
