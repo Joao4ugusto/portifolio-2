@@ -13,14 +13,9 @@ export default function Principal(){
   return (
     <div className=" z-30 mx-4 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[530px] xl:mx-[310px] md:absolute">
       <div className="absolute right-6 text-cyan-500 rotating-icon animate-spin duration-400"><IconReact  width={38} height={38}/></div>
-     <h1 className=" italic text-slate-200 text-lg font-medium">OLÁ, EU SOU O <br/>
-         <span className=" italic text-white font-semibold text-5xl ">João <span className=" font-bold bg-gradient-to-br from-pink-600 to-orange-500 text-transparent bg-clip-text">Augusto..</span></span></h1>
-      <h3 className=" mt-2 text-lg font-light">Desenvolvedor de Software | Estudante <br/> de Ciências da Computação.</h3>
-      <div className=" hover:bg-color-black-sidebar/50 mt-5 w-full bg-color-black-sidebar border border-stone-800 rounded p-4">
-      <h4 className="text-base">Quem eu sou?</h4>
-      <p className=" font-light mt-5 leading-8 ">Sou um Desenvolvedor especializado em HTML, CSS, JavaScript e TypeScript, com conhecimento em ReactJS, NextJS, Tailwind CSS. Também possuo habilidades avançadas em Java e Spring para o desenvolvimento do backend.
-        Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
-      </div>
+     <h1 className=" text-5xl font-semibold">Desenvolvedor de Software</h1>
+      <h3 className=" mt-2 text-lg font-normal">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
+
       <div className=" flex my-5 gap-5">
       <div className=" cursor-pointer p-2 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Contato</a></div>
       <div className="flex p-2 border rounded border-stone-800 text-center">
@@ -32,6 +27,13 @@ export default function Principal(){
       </div>
        </div>
       </div>
+
+      <div className=" hover:bg-color-black-sidebar/50 mt-5 w-full bg-color-black-sidebar border border-stone-800 rounded p-4">
+      <h4 className="text-base">Quem eu sou?</h4>
+      <p className=" font-light mt-5 leading-8 ">Sou um Desenvolvedor especializado em HTML, CSS, JavaScript e TypeScript, com conhecimento em ReactJS, NextJS, Tailwind CSS. Também possuo habilidades avançadas em Java e Spring para o desenvolvimento do backend.
+        Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
+      </div>
+      
       <div className="flex flex-wrap mt-12 gap-y-4 gap-x-1 justify-between">
         <div className=" hover:text-cyan-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconReact  width={24} height={24} /></div>
         <div className=" hover:text-yellow-400 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-16 h-16 bg-color-black-sidebar border border-stone-800 rounded"><IconJavascript width={24} height={24} /></div>
