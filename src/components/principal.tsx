@@ -11,14 +11,14 @@ import IconBxlTailwindCss from "./icons/taiwind";
 
 export default function Principal(){
   return (
-    <div className=" z-30 mx-4 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[530px] xl:mx-[310px] md:absolute">
+    <div className=" z-30 mx-5 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[530px] xl:mx-[310px] md:absolute">
       <h1 className=" text-5xl font-semibold">Desenvolvedor de Software..</h1>
       <div className="absolute right-16 top-[170px] text-cyan-500 rotating-icon animate-spin duration-400"><IconReact  width={38} height={38}/></div>
       <h3 className=" mt-3 text-lg font-light">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
 
       <div className=" flex my-5 gap-5">
-      <div className=" cursor-pointer p-2 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Contato</a></div>
-      <div className="flex p-2 border rounded border-stone-800 text-center">
+      <div className=" cursor-pointer p-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Contato</a></div>
+      <div className="flex p-3 border rounded border-stone-800 text-center">
       <div className="flex items-center mr-2">
       <IconEmail width={18} />
       </div>
