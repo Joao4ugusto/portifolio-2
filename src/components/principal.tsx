@@ -22,8 +22,8 @@ export default function Principal(){
         Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
       </div>
       <div className=" flex my-5 gap-5">
-      <div className=" cursor-pointer p-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Contato</a></div>
-      <div className="flex p-3 bg-color-black-sidebar border rounded border-stone-800 text-center">
+      <div className=" cursor-pointer p-2 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Contato</a></div>
+      <div className="flex p-2 border rounded border-stone-800 text-center">
       <div className="flex items-center mr-2">
       <IconEmail width={18} />
       </div>
