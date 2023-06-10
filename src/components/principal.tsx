@@ -17,8 +17,8 @@ export default function Principal(){
       <h3 className=" mt-3 text-lg font-light">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
 
       <div className=" flex my-5 gap-5">
-      <div className=" cursor-pointer p-3 bg-color-gray/20 border rounded border-stone-800 text-center"><a href="">Contato</a></div>
-      <div className="flex p-3 border rounded border-stone-800 text-center">
+      <div className=" cursor-pointer p-3 bg-color-gray/20 border rounded border-stone-700 text-center"><a href="">Contato</a></div>
+      <div className="flex p-3 border rounded border-stone-700 text-center">
       <div className="flex items-center mr-2">
       <IconEmail width={18} />
       </div>
@@ -28,7 +28,7 @@ export default function Principal(){
        </div>
       </div>
 
-      <div className=" mt-8 w-full  bg-color-gray/20  border border-stone-700 rounded p-4">
+      <div className=" mt-8 w-full  bg-color-gray/20  border border-stone-600 rounded p-4">
       <h4 className="text-base">Quem eu sou?</h4>
       <p className=" font-light mt-5 leading-8 ">Sou um Desenvolvedor especializado em HTML, CSS, JavaScript e TypeScript, com conhecimento em ReactJS, NextJS, Tailwind CSS. Também possuo habilidades avançadas em Java e Spring para o desenvolvimento do backend.
         Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
