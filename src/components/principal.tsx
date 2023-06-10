@@ -13,7 +13,7 @@ export default function Principal(){
   return (
     <div className=" z-30 mx-4 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[530px] xl:mx-[310px] md:absolute">
       <div className="absolute right-6 text-cyan-500 rotating-icon animate-spin duration-400"><IconReact  width={38} height={38}/></div>
-     <h1 className=" text-4xl font-semibold">Desenvolvedor de Software</h1>
+     <h1 className=" text-5xl font-semibold">Desenvolvedor de Software</h1>
       <h3 className=" mt-3 text-lg font-light">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
 
       <div className=" flex my-5 gap-5">
