@@ -28,7 +28,7 @@ export default function Principal(){
        </div>
       </div>
 
-      <div className=" hover:bg-color-black-sidebar/50 mt-8 w-full bg-color-gray/20 border border-stone-700 rounded p-4">
+      <div className=" hover:bg-color-black-sidebar/50 mt-8 w-full bg-color-black-sidebar border border-stone-700 rounded p-4">
       <h4 className="text-base">Quem eu sou?</h4>
       <p className=" font-light mt-5 leading-8 ">Sou um Desenvolvedor especializado em HTML, CSS, JavaScript e TypeScript, com conhecimento em ReactJS, NextJS, Tailwind CSS. Também possuo habilidades avançadas em Java e Spring para o desenvolvimento do backend.
         Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
