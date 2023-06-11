@@ -13,11 +13,11 @@ import Image from "next/image";
 
 export default function Principal(){
   return (
-    <div className=" z-30 mx-5 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[580px] xl:mx-[390px] 2xl:ml-[620px]  2xl:mx-[350px] md:absolute">
+    <div className=" z-30 mx-5 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[580px] xl:mx-[350px] 2xl:ml-[620px]  2xl:mx-[360px] md:absolute">
       <div className=" flex items-center gap-3">
-         <h1 className=" text-[46px] text-5xl font-semibold">João <span className=" text-roxo">  Augusto </span></h1>
+         <h1 className=" text-[46px] text-5xl xl:text-[55px] font-semibold">João <span className=" text-roxo">  Augusto </span></h1>
          <div className="">
-          <IconReact style={{ animationDuration: 's', animationTimingFunction: 'linear', animationIterationCount: 'infinite' }} width={32} height={32} className="text-cyan-500 flex animate-spin" />
+          <IconReact style={{ animationDuration: 's', animationTimingFunction: 'linear', animationIterationCount: 'infinite' }} width={36} height={36} className="text-cyan-500 flex animate-spin" />
          </div>
       </div>
       <h3 className=" text-white mt-3 text-lg font-medium">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h3>
