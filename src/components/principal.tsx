@@ -11,7 +11,7 @@ import IconBxlTailwindCss from "./icons/taiwind";
 
 export default function Principal(){
   return (
-    <div className=" z-30 mx-5 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[580px] xl:mx-[325px] md:absolute">
+    <div className=" z-30 mx-5 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[580px] xl:mx-[315px] md:absolute">
       <div className=" flex items-center gap-3">
          <h1 className=" text-5xl font-semibold">João <span className=" text-roxo">  Augusto </span></h1>
          <div className="">
@@ -22,7 +22,7 @@ export default function Principal(){
       <h3 className=" flex-wrap text-gray-300 mt-2 text-lg font-light">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
 
       <div className=" flex my-5 gap-5">
-      <div className=" cursor-pointer p-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Contato</a></div>
+      <div className=" cursor-pointer p-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Projetos</a></div>
       <div className="flex p-3 border rounded border-stone-800 text-center">
       <div className="flex items-center mr-2">
       <IconEmail width={18} />
