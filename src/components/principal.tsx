@@ -11,7 +11,7 @@ import IconBxlTailwindCss from "./icons/taiwind";
 
 export default function Principal(){
   return (
-    <div className=" z-30 mx-5 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[530px] xl:mx-[310px] md:absolute">
+    <div className=" z-30 mx-5 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[530px] xl:mx-[280px] md:absolute">
       <div className=" flex items-center gap-3">
          <h1 className=" text-5xl font-semibold">João <span className=" text-roxo">  Augusto </span></h1>
          <div className="">
