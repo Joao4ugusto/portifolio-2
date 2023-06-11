@@ -20,8 +20,8 @@ export default function Principal(){
           <IconReact style={{ animationDuration: 's', animationTimingFunction: 'linear', animationIterationCount: 'infinite' }} width={32} height={32} className="text-cyan-500 flex animate-spin" />
          </div>
       </div>
-      <h3 className=" text-white mt-3 text-base 2xl:text-lg font-medium">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h3>
-      <h3 className=" lg:w-[380px] flex-wrap text-gray-300 mt-2 text-sm 2xl:text-base font-light">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
+      <h3 className=" text-white mt-3 text-lg font-medium">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h3>
+      <h3 className=" lg:w-[380px] flex-wrap text-gray-300 mt-2 text-base font-light">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
 
       <div className=" flex my-5 gap-5 cursor-pointer">
       <div className=" py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Projetos</a></div>
@@ -35,9 +35,9 @@ export default function Principal(){
        </div>
       </div>
 
-      <div className=" hover:bg-color-black-sidebar/50 mt-8 w-full bg-color-black-sidebar  border border-stone-800 rounded p-4">
+      <div className=" xl:mb-16 2xl:mb-20 hover:bg-color-black-sidebar/50 mt-8 w-full bg-color-black-sidebar  border border-stone-800 rounded p-4">
       <Image src={minhaImagem} alt="imagem" className=" w-full"/>
-      <h4 className=" mt-2 text-lg text-roxo">Quem eu sou?</h4>
+      <h4 className=" mt-4 text-lg text-roxo">Quem eu sou?</h4>
       <p className=" font-light mt-5 leading-10 ">Sou um Desenvolvedor especializado em HTML, CSS, JavaScript e TypeScript, com conhecimento em ReactJS, NextJS, Tailwind CSS. Também possuo habilidades avançadas em Java e Spring para o desenvolvimento do backend.
         Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
       </div>
