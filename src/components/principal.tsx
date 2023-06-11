@@ -39,19 +39,7 @@ export default function Principal(){
         Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
       </div>
       
-      <div className="flex flex-wrap mt-12 gap-y-4 gap-x-1 justify-between">
-        <div className=" hover:text-cyan-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-20 h-20 bg-color-black-sidebar border border-stone-800 rounded"><IconReact  width={37} height={37} /></div>
-        <div className=" hover:text-yellow-400 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-20 h-20 bg-color-black-sidebar border border-stone-800 rounded"><IconJavascript width={37} height={37} /></div>
-        <div className=" hover:text-orange-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-20 h-20 bg-color-black-sidebar border border-stone-800 rounded"><IconLanguageHtml5 width={37} height={37} /></div>
-        <div className=" hover:text-sky-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-20 h-20 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlCss3 width={37} height={37} /></div>
-        <div className=" hover:text-pink-400 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-20 h-20 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlSass  width={37} height={37} /></div>
-        <div className=" hover:text-teal-600 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-20 h-20 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlTailwindCss  width={37} height={37} /></div>
-        <div className=" hover:text-green-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-20 h-20 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlSpringBoot width={37} height={37}/></div>
-        <div className=" hover:text-cyan-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-20 h-20 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlPostgresql width={37} height={37}  /></div>
-        <div className=" hover:text-green-500 transition-transform duration-500 transform hover:-translate-y-3 p-5  w-20 h-20 bg-color-black-sidebar border border-stone-800 rounded"><IconBxlMongodb width={37} height={37} /></div>
-      <div>
-       </div>
-      </div>
+     
     </div>
   )
 }
