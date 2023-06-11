@@ -15,16 +15,16 @@ export default function Principal(){
       <div className=" flex items-center gap-3">
          <h1 className=" text-5xl font-semibold">João <span className=" text-roxo">  Augusto </span></h1>
          <div className="">
-          <IconReact style={{ animationDuration: '2s', animationTimingFunction: 'linear', animationIterationCount: 'infinite' }} width={32} height={32} className="text-cyan-500 flex animate-spin" />
+          <IconReact style={{ animationDuration: 's', animationTimingFunction: 'linear', animationIterationCount: 'infinite' }} width={32} height={32} className="text-cyan-500 flex animate-spin" />
          </div>
       </div>
       <h3 className=" text-white mt-3 text-lg font-light">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h3>
       <h3 className=" flex-wrap text-gray-300 mt-2 text-lg font-light">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
 
-      <div className=" flex my-5 gap-5">
-      <div className=" cursor-pointer py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Projetos</a></div>
+      <div className=" flex my-5 gap-5 cursor-pointer">
+      <div className=" py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Projetos</a></div>
       <div className="flex py-2 px-3 border rounded border-stone-800 text-center">
-      <div className="flex items-center mr-2">
+      <div className="flex items-center mr-2 cursor-pointer">
       <IconEmail width={18} />
       </div>
       <div className=" cursor-pointer flex items-center">
