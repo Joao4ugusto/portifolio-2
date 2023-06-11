@@ -8,6 +8,8 @@ import IconReact from "./icons/react";
 import IconBxlSass from "./icons/scss";
 import IconBxlSpringBoot from "./icons/spring";
 import IconBxlTailwindCss from "./icons/taiwind";
+import minhaImagem from "../../public/Fundo de tela 1.png"
+import Image from "next/image";
 
 export default function Principal(){
   return (
@@ -33,8 +35,9 @@ export default function Principal(){
        </div>
       </div>
 
-      <div className=" xl:mb-16 2xl:mb-20 hover:bg-color-black-sidebar/50 mt-8 w-full bg-color-black-sidebar  border border-stone-800 rounded p-4">
-      <h4 className=" text-lg text-roxo">Quem eu sou?</h4>
+      <div className=" xl:mb-16 hover:bg-color-black-sidebar/50 mt-8 w-full bg-color-black-sidebar  border border-stone-800 rounded p-4">
+      <Image src={minhaImagem} alt="imagem" className=" w-full"/>
+      <h4 className=" mt-4 text-lg text-roxo">Quem eu sou?</h4>
       <p className=" font-light mt-5 leading-10 ">Sou um Desenvolvedor especializado em HTML, CSS, JavaScript e TypeScript, com conhecimento em ReactJS, NextJS, Tailwind CSS. Também possuo habilidades avançadas em Java e Spring para o desenvolvimento do backend.
         Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
       </div>
