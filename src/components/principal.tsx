@@ -20,8 +20,8 @@ export default function Principal(){
           <IconReact style={{ animationDuration: 's', animationTimingFunction: 'linear', animationIterationCount: 'infinite' }} width={32} height={32} className="text-cyan-500 flex animate-spin" />
          </div>
       </div>
-      <h3 className=" text-white mt-3 text-base font-medium">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h3>
-      <h3 className=" lg:w-[380px] flex-wrap text-gray-300 mt-2 text-sm font-light">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
+      <h3 className=" text-white mt-3 text-base 2xl:text-lg font-medium">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h3>
+      <h3 className=" lg:w-[380px] flex-wrap text-gray-300 mt-2 text-sm 2xl:text-base font-light">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
 
       <div className=" flex my-5 gap-5 cursor-pointer">
       <div className=" py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Projetos</a></div>
