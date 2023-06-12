@@ -1,13 +1,6 @@
 import IconEmail from "./icons/Email";
-import IconBxlCss3 from "./icons/css";
-import IconLanguageHtml5 from "./icons/html";
-import IconJavascript from "./icons/javaScript";
-import IconBxlMongodb from "./icons/mongo";
-import IconBxlPostgresql from "./icons/postgreSql";
 import IconReact from "./icons/react";
-import IconBxlSass from "./icons/scss";
-import IconBxlSpringBoot from "./icons/spring";
-import IconBxlTailwindCss from "./icons/taiwind";
+
 
 
 export default function Principal(){
@@ -19,13 +12,13 @@ export default function Principal(){
           <IconReact style={{ animationDuration: 's', animationTimingFunction: 'linear', animationIterationCount: 'infinite' }} width={36} height={36} className="text-cyan-500 flex animate-spin" />
          </div>
       </div>
-      <h3 className=" text-white mt-3 text-[17px] font-normal ">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h3>
-      <h3 className=" lg:w-[380px] flex-wrap text-gray-300 mt-2 text-base font-light 2xl:w-[430px]">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
+      <h3 className=" text-white mt-3 text-[17px] font-normal 2xl:text-xl ">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h3>
+      <h3 className=" lg:w-[380px] flex-wrap text-gray-300 mt-2 text-base font-light 2xl:text-lg 2xl:w-[430px]">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
 
-      <div className=" flex my-5 gap-5 cursor-pointer">
-      <div className=" py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Projetos</a></div>
+      <div className=" flex my-5 gap-5">
+      <div className=" cursor-pointer py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="">Projetos</a></div>
       <div className="flex py-2 px-3 border rounded border-stone-800 text-center">
-      <div className="flex items-center mr-2 cursor-pointer">
+      <div className="flex items-center mr-2">
       <IconEmail width={18} />
       </div>
       <div className=" cursor-pointer flex items-center">
