@@ -1,3 +1,4 @@
+import Footer from "./footer";
 import IconEmail from "./icons/Email";
 import IconBxlGithub from "./icons/iconGithub";
 import IconBxlInstagram from "./icons/iconInsta";
@@ -9,6 +10,7 @@ import IconReact from "./icons/react";
 
 export default function Principal(){
   return (
+    <div>
     <div className=" z-30 mx-5 my-28 md:my-28 lg:my-14 md:mx-[55px] md:ml-[330px]  lg:mx-[100px] lg:ml-[400px] xl:ml-[520px] xl:mx-[240px] 2xl:ml-[565px]  2xl:mx-[300px] md:absolute">
       <div className=" flex items-center gap-3">
          <h1 className=" text-[46px] text-5xl xl:text-[55px] font-semibold">João <span className=" text-roxo">  Augusto </span></h1>
@@ -43,6 +45,9 @@ export default function Principal(){
         <a href="" className=" p-4 bg-black border border-stone-800 rounded"><IconComputerLaptop width={26} height={26} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
       </div>  
       </div>
+     
+    </div>
+    <Footer />
     </div>
   )
 }

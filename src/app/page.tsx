@@ -3,8 +3,7 @@ import Header from "@/components/header";
 import Principal from "@/components/principal";
 import Sidebar from "@/components/sidebar";
 import {useState} from 'react'
-import Blog from "./blog/page";
-import Footer from "@/components/footer";
+
 
 export default function Page() {
   const [sidebarOpened, setSidebarOpened] =  useState(false);
@@ -20,7 +19,6 @@ export default function Page() {
         <Header openSaidebarClick={openSaidebar}/>
        <Principal />
        </section>
-       <Footer />
      </main>
   );
 }
