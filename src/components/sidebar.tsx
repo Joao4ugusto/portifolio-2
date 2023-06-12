@@ -6,6 +6,7 @@ import Icon24px from './icons/iconTools';
 import IconCodeOfConduct16 from './icons/codeOf';
 import IconIconEmotionHappy from './icons/logo';
 
+
 type props = {
   children: never[],
   open: boolean;
@@ -36,6 +37,8 @@ export default function Sidebar({open, onClose, children}: props){
     </section>
   )
 }
+
+
 
 
 
