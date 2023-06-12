@@ -37,10 +37,10 @@ export default function Principal(){
         Com paixão pela inovação, crio experiências cativantes e humanas, buscando sempre aprender novas tecnologias para fornecer soluções criativas e eficientes. Meu objetivo principal é proporcionar uma experiência excepcional ao usuário, em qualquer dispositivo.</p>
 
       <div className=" mt-5 flex gap-2">
-        <a href="https://www.instagram.com/___joao_augusto___/" className=" p-4 bg-black border border-stone-800 rounded"><IconBxlInstagram width={24} height={24} className=" hover:text-roxo" /></a>
-        <a href="" className=" p-4 bg-black border border-stone-800 rounded"><IconBxlLinkedinSquare width={24} height={24} className=" hover:text-roxo" /></a>
-        <a href="" className=" p-4 bg-black border border-stone-800 rounded"><IconBxlGithub width={24} height={24} className=" hover:text-roxo" /></a>
-        <a href="" className=" p-4 bg-black border border-stone-800 rounded"><IconComputerLaptop width={24} height={24} className=" hover:text-roxo" /></a>
+        <a href="https://www.instagram.com/___joao_augusto___/" className=" p-4 bg-black border border-stone-800 rounded"><IconBxlInstagram width={24} height={24} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
+        <a href="" className=" p-4 bg-black border border-stone-800 rounded"><IconBxlLinkedinSquare width={24} height={24} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
+        <a href="" className=" p-4 bg-black border border-stone-800 rounded"><IconBxlGithub width={24} height={24} className=" text-roxo md:text-white md:hover:text-roxo " /></a>
+        <a href="" className=" p-4 bg-black border border-stone-800 rounded"><IconComputerLaptop width={24} height={24} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
       </div>  
       </div>
     </div>
