@@ -17,7 +17,7 @@ export default function Principal(){
          </div>
       </div>
       <h2 className=" text-white mt-3 text-[17px] font-normal xl:text-xl 2xl:text-xl ">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h2>
-      <p className="  flex-wrap text-gray-200 mt-2 text-base font-light sy:w-[420px] lg:w-[475px] xl:w-[470px] 2xl:text-base 2xl:w-[490px]">Dedicando-me à prática e ao aprendizado constante, busco aprimorar minha habilidade na criação de software, almejando um padrão estético elevado e a excelência em cada projeto.</p>
+      <p className="  flex-wrap text-gray-200 mt-2 text-base font-light sy:w-[420px] lg:w-[470px] xl:w-[470px] 2xl:text-base 2xl:w-[490px]">Dedicando-me à prática e ao aprendizado constante, busco aprimorar minha habilidade na criação de software, almejando um padrão estético elevado e a excelência em cada projeto.</p>
 
       <div className=" flex my-5 gap-5">
       <div className=" cursor-pointer py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="/projetos">Projetos</a></div>
