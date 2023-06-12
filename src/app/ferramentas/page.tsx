@@ -1,4 +1,5 @@
 "use client"
+import Header from "@/components/header";
 import Sidebar from "@/components/sidebar";
 import { useState } from "react";
 
@@ -10,8 +11,9 @@ export default function Ferramentas(){
   
   return(
     <div>
+      <Header openSaidebarClick={openSaidebar}/>
       <Sidebar open={sidebarOpened} onClose={clouseSaidebar}>
-       </Sidebar>
+      </Sidebar>
     </div>
   )
 }
