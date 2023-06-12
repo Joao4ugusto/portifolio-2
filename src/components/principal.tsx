@@ -9,15 +9,15 @@ import IconReact from "./icons/react";
 
 export default function Principal(){
   return (
-    <div className=" z-30 mx-5 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[570px] xl:mx-[300px] 2xl:ml-[590px]  2xl:mx-[300px] md:absolute">
+    <div className=" z-30 mx-5 my-28 md:mx-18 md:ml-[280px] md:my-14 lg:mx-96 xl:ml-[570px] xl:mx-[280px] 2xl:ml-[590px]  2xl:mx-[300px] md:absolute">
       <div className=" flex items-center gap-3">
          <h1 className=" text-[46px] text-5xl xl:text-[55px] font-semibold">João <span className=" text-roxo">  Augusto </span></h1>
          <div className="">
           <IconReact style={{ animationDuration: 's', animationTimingFunction: 'linear', animationIterationCount: 'infinite' }} width={36} height={36} className="text-cyan-500 flex animate-spin" />
          </div>
       </div>
-      <h3 className=" text-white mt-3 text-[17px] font-normal 2xl:text-xl ">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h3>
-      <h3 className=" lg:w-[380px] flex-wrap text-gray-300 mt-2 text-base font-light 2xl:text-lg 2xl:w-[430px]">Por meio de prática e aprendizado constantes, produzo software estético com um padrão extremamente alto.</h3>
+      <h2 className=" text-white mt-3 text-[17px] font-normal xl:text-xl 2xl:text-xl ">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h2>
+      <p className=" lg:w-[380px] flex-wrap text-gray-200 mt-2 text-base font-light xl:w-[490px] 2xl:text-base 2xl:w-[490px]">Dedicando-me à prática e ao aprendizado constantes, busco aprimorar minha habilidade na criação de software, almejando um padrão estético elevado e a excelência em cada projeto.</p>
 
       <div className=" flex my-5 gap-5">
       <div className=" cursor-pointer py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="/projetos">Projetos</a></div>
