@@ -4,6 +4,7 @@ import IconExplore from './icons/iconExplore';
 import IconSquarePen from './icons/iconPen';
 import Icon24px from './icons/iconTools';
 import IconCodeOfConduct16 from './icons/codeOf';
+import IconIconEmotionHappy from './icons/logo';
 
 type props = {
   children: never[],
@@ -17,7 +18,7 @@ export default function Sidebar({open, onClose, children}: props){
       <div className={`${open ? 'ml-0' : '-ml-96'} md:ml-0`}>
         <div className={`text-white m-5 md:m-3 flex items-center justify-between`}>
            <div>
-              <a href='#' className='underline text-base font-normal '>João <br/> Augusto</a>
+              <IconIconEmotionHappy width={28} height={28} className=' text-roxo' />
            </div>
            <div onClick={onClose} className=' md:hidden'>
               <IconClose width={28} height={28} />
@@ -25,7 +26,7 @@ export default function Sidebar({open, onClose, children}: props){
         </div>
         <div className='mt-32 md:mt-32 lg:mt-28'>
           <ul className=' flex flex-col text-sm font-medium space-y-12 m-6 md:m-3'>
-            <a href='/' className=' flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconExplore width={18} height={18} /> Principal</a>
+            <a href='/' className=' flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-800 hover:rounded-md '><IconExplore width={18} height={18} /> Principal</a>
             <a href='/projetos' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconCodeOfConduct16 width={20} height={20} /> Projetos</a>
             <a href='/blog' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><IconSquarePen width={20} height={20} /> Blog</a>
             <a href='/ferramentas' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-stone-900 hover:rounded-md  '><Icon24px width={22} height={22} /> Ferramentas</a>
