@@ -59,6 +59,7 @@ export default function Ferramentas(){
           </a>
 
         </div>
+        <h1 className=" mt-8 text-white font-semibold text-2xl">Tecnologias</h1>
       </div>
       <Footer />
     </div>
