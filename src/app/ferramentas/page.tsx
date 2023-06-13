@@ -29,7 +29,7 @@ export default function Ferramentas(){
         <div className=" flex flex-wrap gap-4 mt-5">
           
           <a href="https://www.figma.com/signup">
-          <div className="  hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
+          <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
            <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><Figma /></div>
            <div>
             <h1 className=" font-semibold">Figma</h1>
@@ -39,7 +39,7 @@ export default function Ferramentas(){
           </a>
           
           <a href="https://reactsvgicons.com/">
-          <div className=" hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
+          <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
            <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><Borboleta /></div>
            <div>
             <h1 className=" font-semibold">React Devicons</h1>
@@ -49,7 +49,7 @@ export default function Ferramentas(){
           </a>
           
           <a href="https://iconscout.com/">
-           <div className=" hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
+           <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
            <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><Icons /></div>
            <div>
             <h1 className=" font-semibold">Iconscout</h1>
