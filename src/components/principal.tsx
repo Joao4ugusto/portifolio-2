@@ -1,5 +1,6 @@
 import Footer from "./footer";
 import IconEmail from "./icons/Email";
+import IconBxlDevTo from "./icons/dev";
 import IconBxlGithub from "./icons/iconGithub";
 import IconBxlInstagram from "./icons/iconInsta";
 import IconBxlLinkedinSquare from "./icons/iconLinkedin";
@@ -42,7 +43,7 @@ export default function Principal(){
         <a href="https://www.instagram.com/___joao_augusto___/" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlInstagram width={26} height={26} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
         <a href="" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlLinkedinSquare width={26} height={26} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
         <a href="" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlGithub width={26} height={26} className=" text-roxo md:text-white md:hover:text-roxo " /></a>
-        <a href="" className="  p-4 bg-black border border-stone-800 rounded"><IconComputerLaptop width={26} height={26} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
+        <a href="" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlDevTo width={28} height={28} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
       </div>  
       </div>
      

@@ -1,6 +1,9 @@
 "use client"
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Borboleta from "@/components/icons/borboleta";
+import IconBxlFigma from "@/components/icons/figma";
+import Figma from "@/components/icons/figma1";
 import IconBxlPostgresql from "@/components/icons/postgreSql";
 import IconBxlTailwindCss from "@/components/icons/taiwind";
 import Sidebar from "@/components/sidebar";
@@ -25,7 +28,7 @@ export default function Ferramentas(){
         <div className=" flex flex-wrap gap-4 mt-5">
 
           <div className="  hover:bg-color-black-sidebar rounded w-80 h-16  p-2 flex gap-3">
-           <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><IconBxlTailwindCss className=" text-cyan-700" width={24} height={24} /></div>
+           <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><Figma /></div>
            <div>
             <h1 className=" font-semibold">Taiwind css</h1>
             <p className=" text-sm text-gray-300">Software para criação de design</p>
@@ -33,7 +36,7 @@ export default function Ferramentas(){
           </div> 
 
           <div className=" hover:bg-color-black-sidebar rounded w-80 h-16  p-2 flex gap-3">
-           <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><IconBxlTailwindCss className=" text-cyan-700" width={24} height={24} /></div>
+           <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><Borboleta /></div>
            <div>
             <h1 className=" font-semibold">Taiwind css</h1>
             <p className=" text-sm text-gray-300">Software para criação de design</p>
