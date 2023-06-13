@@ -1,4 +1,5 @@
 "use client"
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import IconBxlPostgresql from "@/components/icons/postgreSql";
 import IconBxlTailwindCss from "@/components/icons/taiwind";
@@ -49,6 +50,7 @@ export default function Ferramentas(){
 
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

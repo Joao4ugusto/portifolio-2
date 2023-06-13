@@ -5,6 +5,7 @@ import IconArrowUpRightSquareFill from '@/components/icons/arrow';
 import IconJavascript from '@/components/icons/javaScript';
 import Gradiente from '@/components/icons/gradiente';
 import Header from '@/components/header';
+import Footer from '@/components/footer';
 
 export default function Projetos(){
   const [sidebarOpened, setSidebarOpened] =  useState(false);
@@ -18,7 +19,8 @@ export default function Projetos(){
       <Header openSaidebarClick={openSaidebar}/>
       <Sidebar open={sidebarOpened} onClose={clouseSaidebar}>
        </Sidebar>
-
+    
+    <Footer />
     </div>
   )
 }
