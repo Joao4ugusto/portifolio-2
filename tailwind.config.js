@@ -11,7 +11,7 @@ module.exports = {
         "color-gray": "#3B3B3B",
         "color-black": "#000000",
         "color-black-sidebar": "#050505",
-        "roxo": "#8F84CB",
+        "roxo": "#B89DFA",
       }
     },
     screens: {
