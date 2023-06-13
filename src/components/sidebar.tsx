@@ -19,7 +19,7 @@ export default function Sidebar({open, onClose, children}: props){
       <div className={`${open ? 'ml-0' : '-ml-96'} md:ml-0`}>
         <div className={`text-white m-5 md:m-3 flex items-center justify-between`}>
            <div>
-              <IconIconEmotionHappy width={28} height={28} className=' text-roxo' />
+              <IconIconEmotionHappy width={29} height={29} className=' text-roxo' />
            </div>
            <div onClick={onClose} className=' md:hidden'>
               <IconClose width={28} height={28} />
