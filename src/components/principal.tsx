@@ -32,7 +32,7 @@ export default function Principal(){
          <IconEmail width={18} />
       </div>
       <div className="cursor-pointer flex items-center">
-       <a className=" ml-2"> E-mail</a>
+       <h1 className=" ml-2"> E-mail</h1>
       </div>
       </div>
       </a>
