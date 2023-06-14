@@ -25,18 +25,18 @@ export default function Principal(){
       <div className=" flex my-5 gap-4">
       <div className=" cursor-pointer py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="/projetos">Projetos</a></div>
       
-      <div className="flex py-2 px-3 border rounded border-stone-800 text-center">
+      <button className="flex py-2 px-3 border rounded border-stone-800 text-center">
       <a href="mailto:joaoaugusto311016@gmail.com">
       <div className="flex items-center cursor-pointer">
-      {/* <div>
+      <div>
          <IconEmail width={18} />
-      </div> */}
+      </div>
       <div className="cursor-pointer flex items-center">
        <h1 className=" ml-2"> E-mail</h1>
       </div>
       </div>
       </a>
-      </div>
+      </button>
      
 
       </div>
