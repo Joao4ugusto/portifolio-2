@@ -8,6 +8,7 @@ import IconJavascript from "@/components/icons/javaScript";
 import IconBxlPostgresql from "@/components/icons/postgreSql";
 import Svg from "@/components/icons/svg";
 import IconBxlTailwindCss from "@/components/icons/taiwind";
+import Typescript from "@/components/icons/typescript";
 import Sidebar from "@/components/sidebar";
 import { useState } from "react";
 
@@ -73,11 +74,21 @@ export default function Ferramentas(){
         <h1 className=" mt-8 text-white font-semibold text-2xl">Tecnologias</h1>
         <div className=" flex flex-wrap gap-4 mt-5">
 
-           <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
+          <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
             <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
-            <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><IconJavascript width={26} height={26} className=" text-amber-500" /></div>
+            <div className=" p-2 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><IconJavascript width={31} height={31} className=" text-amber-500" /></div>
             <div>
             <h1 className=" font-semibold">JavaScript</h1>
+            <p className=" text-sm text-gray-300">Documentação</p>
+            </div>
+            </div> 
+          </a>
+
+          <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
+            <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
+            <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><Typescript /></div>
+            <div>
+            <h1 className=" font-semibold">Typescript</h1>
             <p className=" text-sm text-gray-300">Documentação</p>
             </div>
             </div> 
