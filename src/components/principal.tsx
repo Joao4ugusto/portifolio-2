@@ -22,18 +22,22 @@ export default function Principal(){
       <h2 className="  text-white mt-3 text-[17px] font-normal xl:text-xl 2xl:text-xl ">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h2>
       <p className="   flex-wrap text-gray-300 mt-2 text-base font-light sy:w-[420px] lg:w-[470px] xl:w-[470px] 2xl:text-base 2xl:w-[490px]">Dedicando-me à prática e ao aprendizado constante, busco aprimorar minha habilidade na criação de software, almejando um padrão estético elevado e a excelência em cada projeto.</p>
 
-      <div className=" flex my-5 gap-5 ">
+      <div className=" flex my-5 gap-4">
       <div className=" cursor-pointer py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="/projetos">Projetos</a></div>
+      
       <div className="flex py-2 px-3 border rounded border-stone-800 text-center">
-      <a href="mailto:joaoaugusto311016@gmail.com" className="flex items-center cursor-pointer">
+      <a href="mailto:joaoaugusto311016@gmail.com">
+      <div className="flex items-center cursor-pointer">
       <div>
          <IconEmail width={18} />
       </div>
       <div className="cursor-pointer flex items-center">
        <a className=" ml-2"> E-mail</a>
       </div>
+      </div>
       </a>
       </div>
+     
 
       </div>
 
