@@ -6,6 +6,7 @@ import IconBxlFigma from "@/components/icons/figma";
 import Figma from "@/components/icons/figma1";
 import Icons from "@/components/icons/icons";
 import IconBxlPostgresql from "@/components/icons/postgreSql";
+import Svg from "@/components/icons/svg";
 import IconBxlTailwindCss from "@/components/icons/taiwind";
 import Sidebar from "@/components/sidebar";
 import { useState } from "react";
@@ -54,6 +55,16 @@ export default function Ferramentas(){
            <div>
             <h1 className=" font-semibold">Iconscout</h1>
             <p className=" text-sm text-gray-300">Biblioteca de icones</p>
+           </div>
+          </div>
+          </a>
+
+          <a href="https://www.svgshapes.in/">
+           <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
+           <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><Svg /></div>
+           <div>
+            <h1 className=" font-semibold">Svg Shapes</h1>
+            <p className=" text-sm text-gray-300">Biblioteca de Svg Shapes</p>
            </div>
           </div>
           </a>
