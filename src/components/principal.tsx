@@ -41,9 +41,9 @@ export default function Principal(){
 
       <div className=" mt-5 flex gap-2">
         <a href="https://www.instagram.com/___joao_augusto___/" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlInstagram width={26} height={26} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
-        <a href="" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlLinkedinSquare width={26} height={26} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
-        <a href="" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlGithub width={26} height={26} className=" text-roxo md:text-white md:hover:text-roxo " /></a>
-        <a href="" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlDevTo width={28} height={28} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-augusto-oliveira-15b018238/" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlLinkedinSquare width={26} height={26} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
+        <a href="https://github.com/joao31Oliveira" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlGithub width={26} height={26} className=" text-roxo md:text-white md:hover:text-roxo " /></a>
+        <a href="https://dev.to/joao31oliveira" className="  p-4 bg-black border border-stone-800 rounded"><IconBxlDevTo width={28} height={28} className=" text-roxo md:text-white md:hover:text-roxo" /></a>
       </div>  
       </div>
      
