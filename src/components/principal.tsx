@@ -25,13 +25,16 @@ export default function Principal(){
       <div className=" flex my-5 gap-5 ">
       <div className=" cursor-pointer py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="/projetos">Projetos</a></div>
       <div className="flex py-2 px-3 border rounded border-stone-800 text-center">
-      <a href="mailto:joaoaugusto311016@gmail.com" className=" gap-2 flex items-center  cursor-pointer">
-      <div> <IconEmail width={18} /></div>
+      <a href="mailto:joaoaugusto311016@gmail.com" className="flex items-center cursor-pointer">
+      <div>
+         <IconEmail width={18} />
+      </div>
       <div className="cursor-pointer flex items-center">
-       <a>E-mail</a>
+       <a className=" ml-2"> E-mail</a>
       </div>
       </a>
       </div>
+
       </div>
 
       <div className=" lg:mb-16 xl:mb-16 hover:bg-color-black-sidebar/50 mt-8 w-full bg-color-black-sidebar border border-stone-800 rounded p-4">
