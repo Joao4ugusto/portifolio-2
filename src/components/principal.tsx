@@ -16,7 +16,7 @@ export default function Principal(){
       <div className=" flex items-center gap-3">
          <h1 className=" text-[46px] text-5xl xl:text-[55px] font-semibold">João <span className=" text-roxo">  Augusto </span></h1>
          <div className="">
-          <IconReact style={{ animationDuration: '1s', animationTimingFunction: 'linear', animationIterationCount: 'infinite' }} width={36} height={36} className="text-cyan-500 flex animate-spin" />
+          <IconReact style={{ animationDuration: '2s', animationTimingFunction: 'linear', animationIterationCount: 'infinite' }} width={36} height={36} className="text-cyan-500 flex animate-spin" />
          </div>
       </div>
       <h2 className="  text-white mt-3 text-[17px] font-normal xl:text-xl 2xl:text-xl ">Desenvolvedor de software | Estudante de <br/> Ciências da Computação</h2>
