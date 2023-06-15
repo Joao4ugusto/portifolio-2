@@ -25,7 +25,7 @@ export default function Sidebar({open, onClose, children}: props){
               <IconClose width={28} height={28} />
            </div>
         </div>
-        <div className='mt-32 md:mt-32 lg:mt-28'>
+        <div className='mt-32 md:mt-32 lg:mt-28 2xl:mt-32'>
           <ul className=' flex flex-col text-sm font-medium space-y-12 m-6 md:m-3'>
             <a href='/' className=' flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-black  md:hover:bg-stone-900 hover:rounded-md'><IconExplore width={18} height={18} /> Principal</a>
             <a href='/projetos' className='flex font-normal text-base items-center gap-3 px-4 py-3 hover:bg-black  md:hover:bg-stone-900 hover:rounded-md  '><IconCodeOfConduct16 width={20} height={20} /> Projetos</a>
