@@ -6,6 +6,8 @@ import Figma from "@/components/icons/figma1";
 import Icons from "@/components/icons/icons";
 import IconJavascript from "@/components/icons/javaScript";
 import IconBxlPostgresql from "@/components/icons/postgreSql";
+import IconReact from "@/components/icons/react";
+import IconBxlSass from "@/components/icons/scss";
 import Svg from "@/components/icons/svg";
 import IconBxlTailwindCss from "@/components/icons/taiwind";
 import Typescript from "@/components/icons/typescript";
@@ -76,7 +78,7 @@ export default function Ferramentas(){
 
           <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
             <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
-            <div className=" p-2 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><IconJavascript width={31} height={31} className=" text-amber-500" /></div>
+            <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><IconJavascript width={30} height={30} className=" text-amber-500" /></div>
             <div>
             <h1 className=" font-semibold">JavaScript</h1>
             <p className=" text-sm text-gray-300">Documentação</p>
@@ -84,11 +86,41 @@ export default function Ferramentas(){
             </div> 
           </a>
 
-          <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
+          <a href="https://www.typescriptlang.org/pt/docs/">
             <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
             <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><Typescript /></div>
             <div>
             <h1 className=" font-semibold">Typescript</h1>
+            <p className=" text-sm text-gray-300">Documentação</p>
+            </div>
+            </div> 
+          </a>
+
+          <a href="https://react.dev/">
+            <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
+            <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><IconReact width={30} height={30}  className=" text-cyan-500"/></div>
+            <div>
+            <h1 className=" font-semibold">React Js</h1>
+            <p className=" text-sm text-gray-300">Documentação</p>
+            </div>
+            </div> 
+          </a>
+
+          <a href="https://sass-lang.com/">
+            <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
+            <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><IconBxlSass width={30} height={30}  className=" text-rose-400"/></div>
+            <div>
+            <h1 className=" font-semibold">Sass</h1>
+            <p className=" text-sm text-gray-300">Documentação</p>
+            </div>
+            </div> 
+          </a>
+
+          <a href="https://tailwindcss.com/">
+            <div className=" hover:bg-color-black-sidebar md:hover:bg-color-black-sidebar-2 rounded w-80 h-16  p-2 flex gap-3">
+            <div className=" p-2.5 items-center justify-center text-center w-12 h-12 bg-color-black-sidebar border rounded border-stone-900"><IconBxlTailwindCss width={30} height={30}  className=" text-cyan-500"/></div>
+            <div>
+            <h1 className=" font-semibold">Tailwind css</h1>
             <p className=" text-sm text-gray-300">Documentação</p>
             </div>
             </div> 
