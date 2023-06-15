@@ -23,7 +23,7 @@ export default function Principal(){
       <p className="   flex-wrap text-gray-300 mt-2 text-base font-light sy:w-[420px] lg:w-[470px] xl:w-[470px] 2xl:text-base 2xl:w-[490px]">Dedicando-me à prática e ao aprendizado constante, busco aprimorar minha habilidade na criação de software, almejando um padrão estético elevado e a excelência em cada projeto.</p>
 
       <div className=" flex my-5 gap-4">
-      <div className=" cursor-pointer py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="/projetos">Projetos</a></div>
+      <div className=" cursor-pointer py-2 px-3 bg-color-black-sidebar border rounded border-stone-800 text-center"><a href="/projetos" className=" font-normal">Projetos</a></div>
       
       <button className="flex py-2 px-3 border rounded border-stone-800 text-center">
       <a href="mailto:joaoaugusto311016@gmail.com">
@@ -32,7 +32,7 @@ export default function Principal(){
          <IconEmail width={18} />
       </div>
       <div className="cursor-pointer flex items-center">
-       <h1 className=" ml-2"> E-mail</h1>
+       <h1 className=" ml-2 font-normal"> E-mail</h1>
       </div>
       </div>
       </a>

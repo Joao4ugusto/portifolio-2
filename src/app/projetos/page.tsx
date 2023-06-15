@@ -6,6 +6,8 @@ import IconJavascript from '@/components/icons/javaScript';
 import Gradiente from '@/components/icons/gradiente';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
+import IconSquarePen from '@/components/icons/iconPen';
+import IconAtlasian from '@/components/icons/iconPapel';
 
 export default function Projetos(){
   const [sidebarOpened, setSidebarOpened] =  useState(false);
@@ -30,9 +32,12 @@ export default function Projetos(){
 
        </div>
        <div className=' h-[35%] border-t border-stone-800 bg-black'>
-         <div className=' flex m-4'>
-            <div className=' bg-black p-2 border border-stone-800 justify-center'>
-              <h2>Projeto em Java</h2>
+         <div className=' flex m-4 justify-between items-center'>
+            <div className=' bg-black p-2 border rounded border-stone-800 justify-center'>
+              <h2 className=' font-normal'>Projeto em Java</h2>
+            </div>
+            <div>
+              <IconArrowUpRightSquareFill width={26} height={26} />
             </div>
          </div>
        </div>
