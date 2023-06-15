@@ -25,8 +25,13 @@ export default function Projetos(){
        <div className=" mx-5 my-28 md:my-28 lg:my-14 md:mx-[55px] md:ml-[330px] lg:mx-[100px] lg:ml-[400px] xl:ml-[520px] xl:mx-[240px] 2xl:ml-[565px] 2xl:mx-[300px] md:absolute">
        <h1 className=" text-white font-semibold text-2xl">Projetos</h1>
 
-       <div className=' mt-5 w-full h-48 bg-color-black-sidebar border rounded border-stone-900'>
+       <div className=' mt-5 w-full sy:w-[500px] h-48 bg-color-black-sidebar border rounded border-stone-900'>
+       <div className=' h-[70%]'>
 
+       </div>
+       <div className=' h-[30%] border-t bg-black'>
+        ooi
+       </div>
        </div>
        </div>
     
