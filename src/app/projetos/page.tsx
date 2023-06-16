@@ -34,7 +34,7 @@ export default function Projetos(){
        <div className=' h-[35%] border-t border-stone-800 bg-black'>
          <div className=' flex m-4 justify-between items-center'>
             <div className=' bg-black p-2 border rounded border-stone-800 justify-center'>
-              <h2 className=' font-normal'>Projeto em Java</h2>
+              <h2 className=' font-normal'>Computação visual</h2>
             </div>
             <div>
               <IconArrowUpRightSquareFill width={26} height={26} />
