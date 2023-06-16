@@ -20,10 +20,10 @@ export default function Projetos(){
        </Sidebar>
        </section>
       
-       <div className=" mx-5 my-28 md:my-28 lg:my-14 md:mx-[55px] md:ml-[330px] lg:mx-[100px] lg:ml-[400px] xl:ml-[520px] xl:mx-[240px] 2xl:ml-[565px] 2xl:mx-[300px] md:absolute">
+       <div className=" mx-5 my-28 md:my-28 lg:my-14 md:mx-[55px] md:ml-[300px] mf:ml-[315px] lg:mx-[100px] lg:ml-[400px] xl:ml-[520px] xl:mx-[240px] 2xl:ml-[565px] 2xl:mx-[300px] md:absolute">
        <h1 className=" text-white font-semibold text-2xl">Projetos</h1>
 
-       <div className=' mt-5 w-full sy:w-[540px] h-52 bg-color-black-sidebar border rounded border-stone-900'>
+       <div className=' mt-5 w-full mf:w-[450px] md:w-[430px] sy:w-[540px] h-52 bg-color-black-sidebar border rounded border-stone-900'>
        <div className=' h-[65%]'>
         
        </div>
