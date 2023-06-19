@@ -5,7 +5,7 @@ import IconArrowUpRightSquareFill from '@/components/icons/arrow';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 import Image from 'next/image';
-import Images from '../projetos/react-mistakes.jpeg'
+
 
 export default function Projetos(){
   const [sidebarOpened, setSidebarOpened] =  useState(false);
@@ -27,7 +27,7 @@ export default function Projetos(){
 
        <div className=' mt-5 w-full mf:w-[450px] md:w-[430px] sy:w-[540px] h-56 bg-color-black-sidebar border rounded border-stone-900'>
        <div className=' h-[65%]'>
-        <Image src={Images} alt='' className="w-full h-full object-cover mf:w-[450px] md:w-[430px] sy:w-[540px] " />
+      
        </div>
        <div className=' h-[35%] border-t border-stone-800 bg-black'>
          <div className=' flex m-4 justify-between items-center'>
