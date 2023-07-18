@@ -1,12 +1,15 @@
-import Header from '@/components/header'
 import './globals.css'
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
+import { Space_Grotesk } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const space = Space_Grotesk({ 
+  weight: ['300', '400', '500', '600', '700'],
+  subsets: ['latin'] })
+
 
 export const metadata = {
-  title: 'João Augusto',
-  description: 'Meu portfólio pessoal para mostrar meus projetos',
+  title: 'João 4ugusto',
+  description: 'Meu portfólio pessoal',
 }
 
 export default function RootLayout({
@@ -15,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" className={space.className}>
       <body className="bg-color-black text-white">{children}</body>
     </html>
   )

@@ -8,11 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "color-gray": "#3B3B3B",
-        "color-black": "#000000",
-        "color-black-sidebar": "#050505",
-        "color-black-sidebar-2": "#101010",
-        "roxo": "#7F77A7",
+        "color-black": "#09090B",
+        "color-sidebar": "#0F1011",
+        "color-border": "#27272A",
+        "color-font-principal": "#E4E4E7",
+        "color-font-secundaria": "#D4D4D8",
+        "color-hover": "#FFFF",
       }
     },
     screens: {
